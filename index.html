@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(0, 0%, 63%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="fylo">
+        <img src="./images/logo.svg" alt="" />
+        <div class="icons">
+          <button class="icon doc">
+            <img src="./images/icon-document.svg" alt="" />
+          </button>
+          <button class="icon fol">
+            <img src="./images/icon-folder.svg" alt="" />
+          </button>
+          <button class="icon">
+            <img src="./images/icon-upload.svg" alt="" />
+          </button>
+        </div>
+      </div>
+
+      <div class="main-storage">
+        <div class="tag">
+          <div>
+            <b> 185 </b>
+            <span> GB Left </span>
+          </div>
+        </div>
+
+        <div class="storage">
+          You’ve used
+          <b>815 GB</b>
+          of your storage
+          <div class="main-scale">
+            <div class="scale">
+              <div class="point"></div>
+            </div>
+          </div>
+          <div class="number-scale">
+            <span>0 GB</span>
+            <span>1000 GB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://chalobonden.github.io/"> Chalobon</a>.
+    </div>
+  </body>
+</html>
